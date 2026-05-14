@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Kumar | Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="toolbar">
+  <button id="printBtn"><i data-lucide="printer"></i></button>
+  <label class="switch">
+    <input type="checkbox" id="themeToggle">
+    <span class="slider"></span>
+  </label>
+  <!-- Replace mode-text span content with an icon -->
+  <span class="mode-icon">🌼</span>
+</div>
+
+
+  <main class="resume">
+    <header>
+      <h1>Abhishek Kumar</h1>
+      <p class="subtitle">Electronics & Software Engineer | Embedded Systems | Web Developer</p>
+      <p class="contact">
+        📞 +91 8800672123 &nbsp; | &nbsp;
+        <a href="mailto:abhishek.yydv@gmail.com">abhishek.yydv@gmail.com</a> &nbsp; | &nbsp;
+        <a href="https://www.linkedin.com/in/abhishekyydv/" target="_blank">LinkedIn</a> •
+        <a href="https://github.com/abhishekyydv" target="_blank">GitHub</a> •
+        <a href="https://abhishekyydv.github.io/Abhishek_Portfolio/" target="_blank">Portfolio</a>
+      </p>
+    </header>
+
+    <div class="columns">
+      <!-- Left column -->
+      <div class="left">
+        <section>
+          <h2>Education</h2>
+          <div class="item">
+            <b>Brahma Shakti Public School, Delhi</b>
+            <p>Intermediate (PCM) — Apr 2018 – Jun 2020</p>
+          </div>
+          <div class="item">
+            <b>Guru Jambheshwar University, Hisar</b>
+            <p>B.Tech — ECE — 7.6 CGPA | Nov 2021 – Jul 2025</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Technical Skills</h2>
+          <p>
+            <b>Languages:</b> Java, C, Python (Basics), JavaScript, HTML, CSS<br>
+            <b>Frameworks:</b> Swing, AWT, Spring Boot (Basics)<br>
+            <b>Databases:</b> MySQL, JDBC<br>
+            <b>Software Dev:</b> OOP, DSA, Multithreading, REST APIs, JSON, DBMS<br>
+            <b>Cloud & DevOps:</b> AWS (Basics), Jenkins, Maven<br>
+            <b>Version Control:</b> Git, GitHub
+          </p>
+        </section>
+      </div>
+
+      <!-- Right column -->
+      <div class="right">
+        <section>
+          <h2>Experience</h2>
+          <div class="item">
+            <b>Beam Infotech Pvt. Ltd., Gurugram</b>
+            <p><i>Embedded System / GET (R&D)</i> — Jan 2025 – Present</p>
+            <ul>
+              <li>Enhanced MPPT Solar Street Light efficiency by 8% through firmware & hardware optimization.</li>
+              <li>Built a web tool automating Excel-to-graph conversion, reducing manual reporting by 70%.</li>
+              <li>Developed Java-based Universal Jig Application for automated production testing.</li>
+              <li>Improved AWS-hosted MPPT Web App with performance & feature upgrades.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <b>IBM SkillsBuild (Remote)</b>
+            <p><i>Front-End Web Developer Intern</i> — May 2024 – Jul 2024</p>
+            <ul>
+              <li>Completed IBM-certified training in HTML, CSS, and JavaScript.</li>
+              <li>Designed interactive UI components improving responsiveness by 30%.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2>Projects</h2>
+          <div class="item">
+            <b>
+              <a href="https://github.com/abhishekyydv/JIG_GUI" target="_blank">
+                Universal Buck Converter JIG <i data-lucide="external-link"></i>
+              </a>
+            </b>
+            <p>Java, JSON, Serial Communication</p>
+            <ul>
+              <li>Built dynamic project system for automotive testing lines with real-time data monitoring.</li>
+              <li>Integrated Excel logging, USB detection, and multithreaded architecture for scalability.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <b>
+              <a href="https://github.com/abhishekyydv/chatApplication" target="_blank">
+                Chat Application <i data-lucide="external-link"></i>
+              </a>
+            </b>
+            <p>Java, Socket Programming</p>
+            <ul>
+              <li>Developed multi-threaded real-time chat system using Sockets and MVC architecture.</li>
+              <li>Implemented asynchronous I/O and thread synchronization for stability.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <b>
+              <a href="https://abhishekyydv.github.io/ExcelToGraph/" target="_blank">
+                CSV to Graph Visualizer <i data-lucide="external-link"></i>
+              </a>
+            </b>
+            <p>HTML, CSS, JavaScript</p>
+            <ul>
+              <li>Created a tool converting CSV/XLSX to interactive charts using Chart.js.</li>
+              <li>Added export features (PDF/PNG/CSV) and modular front-end design.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <b>
+              <a href="https://abhishekyydv.github.io/Electronics_Calculator/" target="_blank">
+                Electronics Calculator <i data-lucide="external-link"></i>
+              </a>
+            </b>
+            <p>HTML, CSS, JS, Electron.js</p>
+            <ul>
+              <li>Built cross-platform calculator app integrating multiple electronics tools.</li>
+              <li>Used modular JS and Electron.js for native-like performance.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

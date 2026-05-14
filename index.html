@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Game Canvas -->
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- Portfolio Content -->
+  <div id="portfolioContent">
+    <!-- Profile Image -->
+    <div id="profileContainer">
+      <img src="abhishek.jpeg" alt="Profile" id="profilePic">
+    </div>
+
+    <!-- Name Headline -->
+    <h1 id="name">I am <span class="highlight">Abhishek Kumar</span></h1>
+
+    <!-- Typewriter Effect -->
+    <div id="typewriter"></div>
+  </div>
+
+  <!-- Score Display -->
+  <div id="score">0/10</div>
+
+  <!-- Game Script -->
+  <script src="game.js"></script>
+
+  <!-- Typewriter Script -->
+  <script>
+    const lines = [
+      "Evaluating resistors in real life too...",
+      "Debugging not just circuits, but expectations.",
+      "A MOSFET in the streets, an op-amp in the lab.",
+      "Trust me, your project will never short with me.",
+      "No capacitor needed — I already have potential."
+    ];
+
+    let lineIndex = 0,
+        charIndex = 0;
+    const typewriterElement = document.getElementById("typewriter");
+
+    function typeWriter() {
+      if (charIndex < lines[lineIndex].length) {
+        typewriterElement.textContent += lines[lineIndex][charIndex++];
+        setTimeout(typeWriter, 40);
+      } else {
+        setTimeout(() => {
+          typewriterElement.textContent = "";
+          charIndex = 0;
+          lineIndex = (lineIndex + 1) % lines.length;
+          typeWriter();
+        }, 1800);
+      }
+    }
+    typeWriter();
+
+    // Profile drag rotation
+    const profileContainer = document.getElementById('profileContainer');
+    let isDragging = false;
+
+    profileContainer.addEventListener('mousedown', () => {
+      isDragging = true;
+      profileContainer.style.cursor = 'grabbing';
+    });
+
+    document.addEventListener('mouseup', () => {
+      isDragging = false;
+      profileContainer.style.cursor = 'grab';
+      profileContainer.style.transform = 'rotateX(0deg) rotateY(0deg)';
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      const rect = profileContainer.getBoundingClientRect();
+      const centerX = rect.left + rect.width / 2;
+      const centerY = rect.top + rect.height / 2;
+      const rotateY = (e.clientX - centerX) / 5;
+      const rotateX = -(e.clientY - centerY) / 5;
+      profileContainer.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+  </script>
+</body> 
+</html>

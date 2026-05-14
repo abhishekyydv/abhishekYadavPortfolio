@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Chatting Application",
+    "desc": "Real-time Java desktop chat app with responsive Swing/AWT GUI, socket programming, and OOP concepts.",
+    "image": "chatApp",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "https://github.com/yourusername/chat-app"
+    }
+  },
+  {
+    "name": "Periodic Table Website",
+    "desc": "An interactive periodic table with click-to-view details, memory tricks, and built-in learning games. Created using HTML, CSS, and JavaScript.",
+    "image": "periodicTable",
+    "category": "web",
+    "links": {
+      "view": "https://yourwebsite.com/periodictable",
+      "code": "https://github.com/yourusername/periodic-table"
+    }
+  },
+  {
+    "name": "Excel to Graph Converter",
+    "desc": "A tool that reads .csv/.xlsx files and generates dynamic histograms using JavaScript charting libraries. Helps in visualizing large datasets with ease.",
+    "image": "graph",
+    "category": "web",
+    "links": {
+      "view": "https://yourwebsite.com/excel-graph",
+      "code": "https://github.com/yourusername/excel-to-graph"
+    }
+  },
+  {
+    "name": "Universal Buck Converter JIG",
+    "desc": "A hardware-software integrated jig for testing DC-DC buck converters. Features include voltage/current monitoring and short-circuit protection.",
+    "image": "buck",
+    "category": "electronics",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Electronics Calculator Suite",
+    "desc": "Web-based calculator suite for electronics engineers covering converters, resistors, ADC, and capacitance.",
+    "image": "calculator",
+    "category": "web android", 
+    "links": {
+      "view": "https://yourwebsite.com/electronics-calculator",
+      "code": "https://github.com/yourusername/electronics-calculator"
+    }
+  },
+  {
+    "name": "MPPT Solar Street Light",
+    "desc": "Developed control logic for a solar street light using MPPT for real-time energy optimization and battery monitoring.",
+    "image": "mppt",
+    "category": "electronics",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Smart Door Lock",
+    "desc": "OTP-based smart door lock system integrated with a Telegram bot for real-time access control and remote authentication.",
+    "image": "lock",
+    "category": "electronics",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Personal Productivity Tracker",
+    "desc": "Built an Arduino-based sensor system with a desktop app for real-time activity monitoring and analytics.",
+    "image": "productivity",
+    "category": "web",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]

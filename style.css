@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  background: #111; /* deep space feel */
+  color: #eee;
+}
+
+/* Canvas for game */
+#gameCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Portfolio content - center */
+#portfolioContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+/* Profile image container */
+#profileContainer {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 30px auto;
+  border: 2px solid #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  transition: transform 0.1s ease-out;
+}
+
+#profilePic {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Name line */
+#name {
+  font-size: 2em;
+  font-family: 'Courier New', monospace;
+  font-weight: 400;
+  color: #eee;
+}
+
+#name .highlight {
+  color: #888;
+  font-weight: 600;
+}
+
+/* 🔠 Typewriter text below the name */
+#typewriter {
+  font-size: 1rem;
+  color: rgba(200, 200, 200, 0.8);
+  margin-top: 8px;
+  min-height: 1.4em; /* keeps layout stable */
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgba(200,200,200,0.7); /* blinking cursor */
+  animation: blinkCursor 0.7s infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 49% { border-color: rgba(200,200,200,0.7); }
+  50%, 100% { border-color: transparent; }
+}
+
+/* Score display */
+#score {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
