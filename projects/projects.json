@@ -6,7 +6,7 @@
     "category": "mern",
     "links": {
       "view": "#",
-      "code": "https://github.com/yourusername/chat-app"
+      "code": "https://github.com/abhishekyydv/chatApplication"
     }
   },
   {
@@ -15,8 +15,8 @@
     "image": "periodicTable",
     "category": "web",
     "links": {
-      "view": "https://yourwebsite.com/periodictable",
-      "code": "https://github.com/yourusername/periodic-table"
+      "view": "https://abhishekyydv.github.io/Periodic-Table-Project/",
+      "code": "https://github.com/abhishekyydv/Periodic-Table-Project"
     }
   },
   {
@@ -25,8 +25,8 @@
     "image": "graph",
     "category": "web",
     "links": {
-      "view": "https://yourwebsite.com/excel-graph",
-      "code": "https://github.com/yourusername/excel-to-graph"
+      "view": "https://abhishekyydv.github.io/ExcelToGraph/",
+      "code": "https://github.com/abhishekyydv/ExcelToGraph"
     }
   },
   {
@@ -35,18 +35,18 @@
     "image": "buck",
     "category": "electronics",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/abhishekyydv/JIG_GUI",
+      "code": "https://github.com/abhishekyydv/JIG_GUI"
     }
   },
   {
     "name": "Electronics Calculator Suite",
     "desc": "Web-based calculator suite for electronics engineers covering converters, resistors, ADC, and capacitance.",
     "image": "calculator",
-    "category": "web android", 
+    "category": "web android",
     "links": {
-      "view": "https://yourwebsite.com/electronics-calculator",
-      "code": "https://github.com/yourusername/electronics-calculator"
+      "view": "https://abhishekyydv.github.io/Electronics_Calculator/",
+      "code": "https://github.com/abhishekyydv/Electronics_Calculator"
     }
   },
   {
