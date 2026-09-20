@@ -27,7 +27,7 @@
 },
 {
   "name": "Electron JS",
-  "icon": "https://www.electronforge.io/~gitbook/image?url=https%3A%2F%2F2355537583-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LBKK1y7h_XWAtuRJG9X-4037718589%252Ficon%252FzSCYXfXdUPvs7AL9g6NO%252FElectron_Software_Framework_Logo.svg%2520%281%29.png%3Falt%3Dmedia%26token%3D325f86f6-2e2a-4d0f-a8c7-b28d4eea56a4&width=32&dpr=1&quality=100&sign=2d940ca3&sv=2"
+  "icon": "https://www.electronforge.io/~gitbook/image?url=https%3A%2F%2F2355537583-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-LBKK1y7h_XWAtuRJG9X-4037718589%252Ficon%252FzSCYXfXdUPvs7AL9g6NO%252FElectron_Software_Framework_Logo.svg%2520%281%29.png%3Falt%3Dmedia%26token%3D325f86f6-2e2a-4d0f-a8c7-b28d4eea56a4&width=32&dpr=2&quality=100&sign=5ef933e712018e3e930c9d41d0b979ac&sv=3"
 },
 
 {
@@ -41,7 +41,7 @@
 
   {
     "name": "TailwindCSS",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+    "icon": "https://img.icons8.com/?size=96&id=CIAZz2CYc6Kc&format=png"
   },
   {
     "name": "Bootstrap",
