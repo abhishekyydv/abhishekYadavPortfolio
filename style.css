@@ -97,3 +97,24 @@ body {
   padding: 5px 15px;
   border-radius: 5px;
 }
+#nextButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 18px;
+
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 28px;
+  font-weight: 300;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+#nextButton:hover {
+  color: #ffffff;
+  transform: translateX(7px);
+}
